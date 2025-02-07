@@ -1,0 +1,23 @@
+/* Custom styles beyond Tailwind */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Responsive navigation for mobile */
+@media (max-width: 768px) {
+    nav .space-x-4 {
+        display: none;
+    }
+    
+    /* Add a mobile menu button here if needed */
+}
+
+/* Hover effects */
+.article-card {
+    transition: transform 0.2s;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+}
